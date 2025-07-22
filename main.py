@@ -7,7 +7,7 @@ print(f"Hello, {name} how are you (good/bad)")
 mood = input().lower()
 
 if mood == "good":
-    print("It's nice to hear that")
+    print("It's nice to hear that!")
 elif mood == "bad":
     print("Sorry to hear that, hope you feel better soon")
 else:
