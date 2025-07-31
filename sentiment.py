@@ -10,10 +10,9 @@ if not name:
     name = "Mystery"
 
 conversation_history = []
-
+print("---### Loading... ###---")
 print(f"/n{Fore.CYAN}Hello Agent {name}")
 print("Please enter your sentiment to analyze")
-print(f"Type 'reset', 'history', or 'exit'")
 
 while True:
     user_input = input()
